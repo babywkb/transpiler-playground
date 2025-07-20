@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "transpile": "babel ./input/input.js -o ./output/output.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0"
+  }
+}
