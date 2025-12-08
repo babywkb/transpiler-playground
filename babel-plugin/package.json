@@ -5,6 +5,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.28.0",
-    "@babel/core": "^7.28.0"
+    "@babel/core": "^7.28.0",
+    "@babel/helper-plugin-utils": "^7.27.1",
+    "@babel/types": "^7.28.5"
   }
 }
