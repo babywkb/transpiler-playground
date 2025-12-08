@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "transpile": "babel ./input/input.js -o ./output/output.js"
   },
