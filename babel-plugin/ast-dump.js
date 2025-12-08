@@ -1,6 +1,6 @@
-const fs = require('fs');
+import fs from 'fs';
 
-module.exports = function ({ types: t }) {
+export default function ({ types: t }) {
   return {
     visitor: {
       Program(path) {
@@ -10,4 +10,4 @@ module.exports = function ({ types: t }) {
       }
     }
   };
-};
+}

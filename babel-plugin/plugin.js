@@ -1,4 +1,4 @@
-module.exports = function ({ types: t }) {
+export default declare((api, options) => {
   return {
     visitor: {
       FunctionDeclaration(path) {
@@ -6,4 +6,4 @@ module.exports = function ({ types: t }) {
       }
     }
   };
-};
+});
