@@ -39,16 +39,22 @@ npm run transpile
 3. [input/input.js](input/input.js)を変換
 4. 結果を`output/output.js`に出力
 
+### プラグインを使ったトランスパイル実行
+
+```bash
+npm run transpile
+```
+
 ### プラグインのみビルド
 
 ```bash
 npm run build
 ```
 
-### プラグインを使ったトランスパイル実行
+### ビルド済のプラグインでトランスパイル実行
 
 ```bash
-npm run transpile
+npm run transpile:only
 ```
 
 ## ファイル構成

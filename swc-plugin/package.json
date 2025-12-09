@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "cargo build --target wasm32-wasip1 --release",
-    "transpile": "npm run build && node run-transpile.js"
+    "transpile": "npm run build && node run-transpile.js",
+    "transpile:only": "node run-transpile.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.3.14",
