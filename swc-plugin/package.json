@@ -1,0 +1,14 @@
+{
+  "name": "swc-plugin-remove-console",
+  "version": "1.0.0",
+  "description": "SWC plugin to remove console.log statements",
+  "type": "module",
+  "scripts": {
+    "build": "cargo build --target wasm32-wasip1 --release",
+    "transpile": "npm run build && node run-transpile.js"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.3.14",
+    "@swc/core": "^1.4.17"
+  }
+}
