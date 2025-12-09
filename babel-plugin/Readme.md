@@ -9,7 +9,7 @@
 - `output/`  
   変換後のファイルやASTダンプを出力します。
 - `plugin.js`  
-  関数宣言の名前に`prefix_`を付与するBabelプラグインです。
+  コード内から'`console.log(...)`を削除するBabelプラグインです。
 - `ast-dump.js`  
   ASTを`output/ast-output.json`にダンプするBabelプラグインです。
 - `babel.config.json`  
