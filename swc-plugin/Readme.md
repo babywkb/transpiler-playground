@@ -20,7 +20,6 @@ Babelプラグインと同等の機能を持つSWCプラグインです。すべ
 ### インストール
 
 ```bash
-cd swc-plugin
 npm install
 ```
 
@@ -120,14 +119,6 @@ function calcArray() {
 ```
 
 2つの`console.log()`呼び出しが正常に削除されています。
-
-## トラブルシューティング
-
-### WASMターゲットがない場合
-
-```bash
-rustup target add wasm32-wasip1
-```
 
 ## 参考リンク
 
