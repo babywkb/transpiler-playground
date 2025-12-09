@@ -1,4 +1,6 @@
 {
+  "name": "babel-plugin-remove-console",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "transpile": "babel ./input/input.js -o ./output/output.js"
